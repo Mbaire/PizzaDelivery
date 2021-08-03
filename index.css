@@ -28,10 +28,37 @@ h3{
 }
 h2{
     text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
 .order{
     background-color:lightgray;
+    margin-bottom: 5%;
 }
 .over{
-    background-color: bisque;
+    background-color:#212529;
+    color: white;
+    text-align: center;
+    width: 250px;
+    margin-left: 40%;
+    margin-bottom: 5px;
+}
+#order1 {
+    background-color:green !important;
+    box-shadow: 0 0 10px grey;
+    position:relative;
+    left: -10%;
+}
+
+#order2 {
+    background-color: green !important;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    left: 45%;
+    margin-top: 10px;
+    
+}
+form{
+    text-align: center;
+    margin-left:15%;
 }
