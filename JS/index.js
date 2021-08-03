@@ -10,48 +10,48 @@ function order(flavour, size, crust, vegTopping, nonVegTopping) {
     this.price = 0;
 
 }
-// var pizzaFlavour = ["Chicken Tikka", "Hawaian", "Peperoni","Regina"];
-// var pizzaSize = ["Small", "Medium", "Large"];
-// var pizzaCrust = ["Crispy", "Stuffed", "Gluten-free"];
-// var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon", ];
-// var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum", ];
+var pizzaFlavour = ["Chicken Tikka", "Hawaian", "Peperoni","Regina"];
+var pizzaSize = ["Small", "Medium", "Large"];
+var pizzaCrust = ["Crispy", "Stuffed", "Gluten-free"];
+var pizzaNonVegTopping = ["Chicken", "Sausage", "Bacon", ];
+var pizzaVegTopping = ["Mushrooms", "Onions", "Capsicum", ];
 
-order.prototype.cost = function() {
-    if (this.size === pizzaSize[0]) {
-        this.price += 500;
-    } else if (this.size === pizzaSize[1]) {
-        this.price += 700;
-    } else if (this.size === pizzaSize[2]) {
-        this.price += 900;
-    }
+// order.prototype.cost = function() {
+//     if (this.size === pizzaSize[0]) {
+//         this.price += 500;
+//     } else if (this.size === pizzaSize[1]) {
+//         this.price += 700;
+//     } else if (this.size === pizzaSize[2]) {
+//         this.price += 900;
+//     }
 
-    if (this.crust === pizzaCrust[0]) {
-        this.price += 100;
-    } else if (this.crust === pizzaCrust[1]) {
-        this.price += 100;
-    } else if (this.crust === pizzaCrust[2]) {
-        this.price += 50;
-    }
+//     if (this.crust === pizzaCrust[0]) {
+//         this.price += 100;
+//     } else if (this.crust === pizzaCrust[1]) {
+//         this.price += 100;
+//     } else if (this.crust === pizzaCrust[2]) {
+//         this.price += 50;
+//     }
 
-    if (this.nonVegTopping === pizzaNonVegTopping[0]) {
-        this.price += 300;
-    } else if (this.nonVegTopping === pizzaNonVegTopping[1]) {
-        this.price += 300;
-    } else if (this.nonVegTopping === pizzaNonVegTopping[2]) {
-        this.price += 300;
-    }
+//     if (this.nonVegTopping === pizzaNonVegTopping[0]) {
+//         this.price += 300;
+//     } else if (this.nonVegTopping === pizzaNonVegTopping[1]) {
+//         this.price += 300;
+//     } else if (this.nonVegTopping === pizzaNonVegTopping[2]) {
+//         this.price += 300;
+//     }
 
 
-    if (this.vegTopping === pizzaVegTopping[0]) {
-        this.price += 200;
-    } else if (this.vegTopping === pizzaVegTopping[1]) {
-        this.price += 200;
-    } else if (this.vegTopping === pizzaVegTopping[2]) {
-        this.price += 200;
-    }
+//     if (this.vegTopping === pizzaVegTopping[0]) {
+//         this.price += 200;
+//     } else if (this.vegTopping === pizzaVegTopping[1]) {
+//         this.price += 200;
+//     } else if (this.vegTopping === pizzaVegTopping[2]) {
+//         this.price += 200;
+//     }
 
-    return this.price;
-}
+//     return this.price;
+// }
 
 
 order.prototype.totalCost = function() {
