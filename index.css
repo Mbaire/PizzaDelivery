@@ -2,7 +2,10 @@
     /* background-color: aquamarine; */
     background-image: url(Assets/pizza_hd_picture_6_167274.jpg);
     height: 80vh;
-     background-size: cover;
-
-    
+     background-size: cover;   
+}
+#aboutus{
+    background-color:black;
+    color:white;
+    margin-top: 10px;
 }
