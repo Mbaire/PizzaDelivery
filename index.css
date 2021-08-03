@@ -1,6 +1,6 @@
 .bites{
     /* background-color: aquamarine; */
-    background-image: url(Assets/back.jpeg);
+    background-image: url(Assets/back3.jpeg);
     height: 80vh;
      background-size: cover; 
      /* text-align: center;   */
@@ -10,10 +10,18 @@
     background-color:black;
     color:white;
     margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
 }
+#menu{
+    margin-top: 20px;
+}
+
 h1{
     text-align: center;
-    top: 20%;
+    font-size:xx-large;
+    font-weight: bolder;
 }
 h3{
     text-align: center;
@@ -22,8 +30,8 @@ h2{
     text-align: center;
 }
 .order{
-    background-color: red;
+    background-color:lightgray;
 }
 .over{
-    background-color: yellow;
+    background-color: bisque;
 }
