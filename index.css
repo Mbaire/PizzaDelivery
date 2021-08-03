@@ -1,13 +1,29 @@
 .bites{
     /* background-color: aquamarine; */
-    background-image: url(Assets/pic.7.jpg);
+    background-image: url(Assets/back.jpeg);
     height: 80vh;
      background-size: cover; 
      /* text-align: center;   */
-     color: orange
+     color:black
 }
 #aboutus{
     background-color:black;
     color:white;
     margin-top: 10px;
+}
+h1{
+    text-align: center;
+    top: 20%;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.order{
+    background-color: red;
+}
+.over{
+    background-color: yellow;
 }
