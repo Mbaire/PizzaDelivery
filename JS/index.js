@@ -1,15 +1,15 @@
 //user interface
 var totalCosts = [];
 
-function order(flavour, size, crust, vegTopping, nonVegTopping) {
-    this.flavour=flavour;
-    this.size = size;
-    this.crust = crust;
-    this.nonVegTopping = nonVegTopping;
-    this.vegTopping = vegTopping;
-    this.price = 0;
+// function order(flavour, size, crust, vegTopping, nonVegTopping) {
+//     this.flavour=flavour;
+//     this.size = size;
+//     this.crust = crust;
+//     this.nonVegTopping = nonVegTopping;
+//     this.vegTopping = vegTopping;
+//     this.price = 0;
 
-}
+// }
 var pizzaFlavour = ["Chicken Tikka", "Hawaian", "Peperoni","Regina"];
 var pizzaSize = ["Small", "Medium", "Large"];
 var pizzaCrust = ["Crispy", "Stuffed", "Gluten-free"];
