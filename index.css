@@ -1,8 +1,10 @@
 .bites{
     /* background-color: aquamarine; */
-    background-image: url(Assets/pizza_hd_picture_6_167274.jpg);
+    background-image: url(Assets/pic.7.jpg);
     height: 80vh;
-     background-size: cover;   
+     background-size: cover; 
+     /* text-align: center;   */
+     color: orange
 }
 #aboutus{
     background-color:black;
